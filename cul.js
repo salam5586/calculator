@@ -1,18 +1,13 @@
-var butt =  document.getElementById("butt").innerText
-var butto = document.getElementById("butto").innerText
-function calcul(butt){
-let result
-if(butt=== '+' ){
- result=  butt + butto
-}else if( butt === '-'){
-result = butt - butto
-}else if(butt === '/'){
-    result = butt / butto
-} else if(butt === '%'){
-    result = butt % butto;
+
+
+function calcul (value){
+    const display = document.getElementById('result')
+    display.value += value
 }
-document.getElementById("result").innerText = "Result: " + result;
-}
+
+  function calculate() {
+  result.value = eval(result.value);
+  }
 
 let country = "pakistan";
 let CNIC = true;

@@ -4,17 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter 9 js</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="butt">10</button>
-    <button id="butto">15</button>
+    <button id="butt" onclick="calcul (10)">10</button>
+    <button id="butto" onclick="calcul (5)">5</button>
+    <br><br><br><br>
     <button onclick="calcul('+')">+</button>
     <button onclick="calcul('-')">-</button>
-    <button onclick="calcul('/')">/</button>
+    <button onclick="calcul('*')">*</button>
     <button onclick="calcul('%')">%</button>
-    <br>
-    <h3 id="result">Result:</h3>
+    <button onclick="calculate()">=</button>
+    <br><br><br>
+    <input id="result" readonly> 
+    <style>
+        *{
+            align-items: center;
+            text-align: center;
+            
+        }
+        #butt,#butto{
+            height: 40px;
+            width: 100px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+    </style>
     <script src="cul.js"></script>
 </body>
 </html>
