@@ -12,7 +12,7 @@ function calcul (value){
 let country = "pakistan";
 let CNIC = true;
 let age = 20 ;
- let  blooklest = true;
+ let  blooklest = false;
 
  if( country ==="pakistan"&& CNIC === true && age > 18 && blooklest === true) {
     console.log ("You can vote")
